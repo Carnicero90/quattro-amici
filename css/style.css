@@ -1,0 +1,38 @@
+/* COMMON
+   ======================= */
+body * {
+   font-size: 1.5rem;
+   padding: 10px;
+}
+
+i {
+   font-size: 2rem;
+}
+
+p>i:first-child {
+   font-size: 3rem
+}
+
+.container {
+   background-color: #15aabf;
+   color: white;
+   width: 400px;
+   margin: auto;
+   border-radius: 25px
+
+}
+
+.blah {
+   align-items: flex-start;
+}
+/* ======================= */
+
+/* MACRO LAYOUT
+   ======================= */
+
+/* ======================= */
+
+/* MICRO LAYOUT
+   ======================= */
+
+/* ======================= */
