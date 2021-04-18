@@ -29,11 +29,11 @@ const amici = {
   quarto: document.getElementById('quarto')
 }
 
-hider(amici.secondo, 3000, ()  => { 
+hider(amici.quarto, 3000, ()  => { 
   amici.primo.innerHTML = 'Eravamo tre amici al bar, uno si è impiegato in una banca <i class="fas fa-money-check-alt"></i>';
   hider(amici.terzo, 3000, () => {
     amici.primo.innerHTML  = 'Eravamo due amici al bar, uno è andato con la donna al mare <i class="fas fa-umbrella-beach"></i>';
-    hider(amici.quarto, 3000, () => {
+    hider(amici.secondo, 3000, () => {
       amici.primo.innerHTML  = 'Son rimasto io da solo al bar <i class="fas fa-wine-bottle"></i><i class="fas fa-wine-bottle"></i><i class="fas fa-wine-bottle"></i>';
     })
   })})
